@@ -5,7 +5,7 @@ import { useGlobalContext } from "./Context";
 const url = `https://api.unsplash.com/search/photos?client_id=${
   import.meta.env.VITE_API_KEY
 }&query=cats`;
-console.log(import.meta.env.VITE_API_KEY);
+// console.log(import.meta.env.VITE_API_KEY);
 const Gallery = () => {
   const { searchValue } = useGlobalContext();
   // const searchQuery = `${searchValue}`;
